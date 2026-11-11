@@ -1,6 +1,6 @@
 # UTEMP API — University Task and Evaluation Management Platform
 
-[![CI](https://github.com/Esteban-JGS/utemp-api/actions/workflows/ci.yml/badge.svg)](https://github.com/Esteban-JGS/utemp-api/actions/workflows/ci.yml)
+[![CI](https://github.com/esteban-jgs/utemp-api/actions/workflows/ci.yml/badge.svg)](https://github.com/esteban-jgs/utemp-api/actions/workflows/ci.yml)
 ![Java 21](https://img.shields.io/badge/Java-21-orange)
 ![Spring Boot 3.3](https://img.shields.io/badge/Spring%20Boot-3.3-6DB33F)
 ![PostgreSQL 16](https://img.shields.io/badge/PostgreSQL-16-336791)
@@ -18,7 +18,7 @@ PostgreSQL with Flyway migrations, Docker Compose, and tests with JUnit 5, Mocki
 Requirements: Docker. The login example below also uses `curl` and [`jq`](https://jqlang.github.io/jq/).
 
 ```bash
-git clone https://github.com/Esteban-JGS/utemp-api.git
+git clone https://github.com/esteban-jgs/utemp-api.git
 cd utemp-api/UTEMP_Project
 cp .env.example .env          # then set JWT_SECRET, e.g. with: openssl rand -base64 48
 docker compose up --build
@@ -176,7 +176,7 @@ jjwt · ModelMapper · springdoc-openapi · JUnit 5 · Mockito · Testcontainers
 
 Built as the final project of the Programming III course at Universidad Nacional (Costa Rica) by:
 
-- **Esteban Javier Granados Sibaja** ([@Esteban-JGS](https://github.com/Esteban-JGS)) — main author of the
+- **Esteban Javier Granados Sibaja** ([@esteban-jgs](https://github.com/esteban-jgs)) — main author of the
   business logic (most of the services, including the asynchronous review and the observer-based notifications) and
   of the data model: entities, DTOs, repositories and mappers. Also part of the controllers.
 - **Juan Carlos Camacho Solano** ([@JuanCaUNA](https://github.com/JuanCaUNA)) — most of the REST controllers and
